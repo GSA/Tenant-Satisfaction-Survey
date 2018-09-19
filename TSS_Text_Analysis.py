@@ -24,13 +24,9 @@ nltk.download('wordnet')
 nltk.download('stopwords')
 %matplotlib inline 
 
-server = ''
-database = ''
-username = ''
-password = ''
+
 cnxn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password+'')
 
-sql = ''
 df_tss = pd.read_sql(sql,cnxn)
 cnxn.close()
 
