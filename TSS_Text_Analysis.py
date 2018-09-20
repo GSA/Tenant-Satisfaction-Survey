@@ -226,6 +226,8 @@ for agency in unique_agency:
     lda_list.append(return_list)
     
     
+rand_list = lda_to_list(tokenize_text(sentences))    
+
 rand_list.append('ALL GOV')
 rand_list.append(0)
 
