@@ -98,11 +98,6 @@ def topic_model(x):
         print()
 
 
-    # Load the 20 newsgroups dataset and vectorize it. We use a few heuristics
-    # to filter out useless terms early on: the posts are stripped of headers,
-    # footers and quoted replies, and common English words, words occurring in
-    # only one document or in at least 95% of the documents are removed.
-
     print("Loading dataset...")
     t0 = time()
     data_samples = x
