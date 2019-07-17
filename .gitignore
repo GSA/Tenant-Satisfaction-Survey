@@ -1,9 +1,15 @@
+
+
+config.py
+*.csv
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
+# C extenssions
 *.so
 
 # Distribution / packaging
